@@ -1,0 +1,29 @@
+body {
+    font-family: Arial;
+    background-color: #f2f2f2;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+h1 {
+    color: #2c3e50;
+    margin-top: 20px;
+}
+
+.description {
+    color: #555;
+    margin-bottom: 20px;
+}
+
+.event-info {
+    background-color: white;
+    margin: 20px auto;
+    padding: 15px;
+    width: 60%;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+}
+
+.form-card {
+    background-color: white;
