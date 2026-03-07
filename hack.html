@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+<title>Student Activity Tracker</title>
+<link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<header>
+<h1>🚀 Student Activity Tracker</h1>
+<p>Track your learning activities</p>
+</header>
+
+<nav>
+<button onclick="showPage('home')">Home</button>
+<button onclick="showPage('activity')">Activities</button>
+<button onclick="showPage('progress')">Progress</button>
+</nav>
+
+<!-- HOME PAGE -->
+
+<section id="home" class="page">
+
+<h2>Welcome 👋</h2>
+
+<p>This app helps students track learning activities and progress.</p>
+
+</section>
+
+<!-- ACTIVITY PAGE -->
+
+<section id="activity" class="page">
+
+<h2>Activity List</h2>
+
+<div class="activity-card">
+<h3>HTML Basics</h3>
+<p>Learn HTML structure</p>
+<span class="status">Pending</span>
+<button onclick="completeTask(this)">Complete</button>
+</div>
+
+<div class="activity-card">
+<h3>CSS Styling</h3>
+<p>Practice CSS layout</p>
+<span class="status">Pending</span>
+<button onclick="completeTask(this)">Complete</button>
+</div>
+
+<div class="activity-card">
+<h3>JavaScript Basics</h3>
+<p>Learn JS functions</p>
+<span class="status">Pending</span>
+<button onclick="completeTask(this)">Complete</button>
+</div>
+
+</section>
+
+<!-- PROGRESS PAGE -->
+
+<section id="progress" class="page">
+
+<h2>Progress</h2>
+
+<div class="progress-bar">
+<div id="progressFill"></div>
+</div>
+
+<p id="progressText">0 / 3 completed</p>
+
+</section>
+
+<!-- IMPORTANT: JS FILE -->
+
+<script src="script.js"></script>
+
+</body>
+</html>
